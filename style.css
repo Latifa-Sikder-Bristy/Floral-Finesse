@@ -10,6 +10,15 @@ body {
 .primary-color{
     color: #E55473;
 }
+.pink-bg{
+    background: rgba(167, 33, 98, 0.15);
+}
+.blue-bg{
+    background: rgba(5, 151, 160, 0.15);
+}
+.green-bg{
+    background: rgba(71, 125, 17, 0.15);
+}
 .section-gap{
     margin-bottom: 8%;
 }
@@ -25,6 +34,7 @@ body {
 }
 .banner-text-container{
     padding: 100px 50px 340px 147px;
+
 }
 .banner-title{
     color: #272727;
@@ -57,6 +67,42 @@ body {
     max-width: 75%;
     position: absolute;
     bottom: 0px;
+}
+/* feature section styles */
+.feature-container{
+}
+.img-bg-parent-div{
+    display: flex;
+    gap: 24px;
+}
+.img-bg{
+    width: 400px;
+    height: 500px;
+    border-radius: 300px 300px 0px 0px;
+    position: relative;
+}
+.img-div{
+    position: absolute;
+    bottom: -5px;
+    left: 70px;
+    margin: auto;
+}
+.flower-position{
+    position: absolute;
+    bottom: 65px;
+    left: 70px;
+    margin: auto;
+}
+.flower-card{
+    text-align: center;
+}
+.flower-name{
+    margin-top: 20px;
+    color: #272727;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
 }
 /* Hot Deal styles */
 .hot-deal-title{

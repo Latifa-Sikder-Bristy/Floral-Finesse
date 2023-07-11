@@ -70,6 +70,8 @@ body {
 }
 /* feature section styles */
 .feature-container{
+    display: flex;
+    justify-content: center;
 }
 .img-bg-parent-div{
     display: flex;

@@ -70,15 +70,19 @@ body {
     font-weight: 400;
     line-height: 30px;
 }
+.hot-deal-bg{
+    background-color: #FCEEF1;
+}
 .hot-deal-container{
     display: flex;
-    background-color: #FCEEF1;
     justify-content: center;
     padding: 10px 0px;
     align-items: center;
+    width: 80%;
+    margin: auto;
 }
 .hot-deal-text{
-    width: 50%;
+    width: 55%;
     text-align: center;
     align-items: center;
 }
@@ -86,4 +90,66 @@ body {
     width: 80%;
     margin: auto;
     padding: 30px 0px;
+}
+/* Social media section styles */
+.instagram-container{
+    justify-content: center;
+    text-align: center;
+}
+.cards-container{
+    display: flex;
+    gap: 24px;
+    width: 80%;
+    margin: auto;
+}
+.img-card img{
+    width: 100%;
+}
+.title{
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+}
+.description{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    width: 40%;
+    margin: auto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 30px 0px;
+}
+/* News letter sction  */
+.newsletter-container{
+    background-image: url("./Flower Asset/Rectangle 9.png");
+    background-position: center;
+    width: 1440px;
+    height: 449px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.form{
+    border-radius: 8px;
+    background: #FFF;
+    width: 700px;
+    height: 64px;
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+    margin-right: 20px;
+}
+::placeholder{
+    padding-left: 30px;
+}
+.email-with-btn-container{
+    display: flex;
 }

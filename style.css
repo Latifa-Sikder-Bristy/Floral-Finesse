@@ -146,8 +146,6 @@ body {
     font-weight: 400;
     border: none;
     margin-right: 20px;
-}
-::placeholder{
     padding-left: 30px;
 }
 .email-with-btn-container{

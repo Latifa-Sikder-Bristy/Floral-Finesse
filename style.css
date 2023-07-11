@@ -15,7 +15,6 @@ body {
 }
 /* banner styles */
 .banner-container{
-    background-color: #FCEEF1;
     display: flex;
     width: fit-content;
     height: 80vh;
@@ -73,7 +72,8 @@ body {
     font-weight: 400;
     line-height: 30px;
 }
-.hot-deal-bg{
+.hot-deal-bg,
+.banner-bg{
     background-color: #FCEEF1;
 }
 .hot-deal-container{

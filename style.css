@@ -91,8 +91,8 @@ body {
 }
 .flower-position{
     position: absolute;
-    bottom: 65px;
-    left: 70px;
+    bottom: 50px;
+    left: 50px;
     margin: auto;
 }
 .flower-card{
@@ -105,6 +105,16 @@ body {
     font-weight: 700;
     line-height: 35px;
     text-decoration-line: underline;
+}
+.icon-section{
+    display: flex;
+    gap: 5%;
+    justify-content: center;
+    text-align: center;
+    background-color: #F4F4F4;
+    width: 80%;
+    padding: 5% 0;
+    margin: auto;
 }
 /* Hot Deal styles */
 .hot-deal-title{
@@ -119,6 +129,9 @@ body {
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
+}
+.hot-deal-bg{
+    margin-top: 8%;
 }
 .hot-deal-bg,
 .banner-bg{

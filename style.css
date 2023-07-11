@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+/* banner styles */
+.banner-container{
+    background-color: #FCEEF1;
+    display: flex;
+    width: fit-content;
+    height: 80vh;
+}
+.banner-text-container,
+.banner-img{
+    width: 50%;
+}
+.banner-text-container{
+    padding: 100px 50px 340px 147px;
+}
+.banner-title{
+    color: #272727;
+    font-size: 60px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.banner-decription{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 20px;
+    width: 80%;
+}
+.btn{
+    border: none;
+    color: #FCEEF1;
+    background: #E55473;
+    padding: 20px 43px;
+    border-radius: 8px;
+}
+.banner-img{
+    position: relative;
+}
+.banner-img img{
+    max-width: 75%;
+    position: absolute;
+    bottom: 0px;
+}
